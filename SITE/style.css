@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
+
+html {
+  height: 100%;
+  overflow-x: hidden;
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    
+width: 100vw;
+min-height: 100%;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color:#eee;
+
+}
+
+
+
+
+
+/* MENUS HEADER ET FOOTER */
+
+.top-bar
+{
+  display:flex;
+  flex-direction:row;
+  background-color:#FFF;
+  color:#000;
+  width:100%;
+  height:auto;
+  margin-bottom:8px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:0px;
+  padding-left:0px;
+  margin-right:0px;
+  vertical-align: middle;
+
+}
+.img-logo {max-width:4vh;}
+footer .btn-newsletter {margin-left:0px;} 
+
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50px;
+  line-height: 50px;
+}
+ul.navbar-nav a:hover {color:#C1292E!important;}
+.navbar-dark .navbar-nav .nav-link {color:#fff;}
+.nav-item {padding:15px;}
+
+.navbar-dark i
+{
+  color:#C1292E;
+  padding-right:5px;
+  font-size:15px;
+}
+
+.bg-blue{color:#C1292E}
+.fab
+{
+  color:#C1292E;
+  font-size:2.7em;
+  letter-spacing:5px;
+  vertical-align:middle;
+  
+}
+
+footer .fab
+{
+  color:white;
+  font-size:38px;
+  letter-spacing: 25px;
+}
+
+
+
+
+/* POLICES */
+.text-part
+{
+  margin:auto;
+  text-align:left;
+  
+}
+
+.lire-la-suite
+{
+  text-align:right;
+  padding-right:15px;
+ }
+
+ .lire-la-suite a
+ {color:#C1292E
+ }
+
+p, span, li, ul
+{
+  font-family: "Open Sans";
+  color:#373632;
+}
+
+.strong 
+{
+  font-weight:bold;
+  margin-left:10px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family:"Raleway";
+  padding:10px;
+}
+
+h1, h2
+{
+  color:#C1292E;
+  text-transform:uppercase;
+  padding:30px;
+}
+
+ 
+footer p {color:white;}
+h6 {font-weight: bold;}
+.jumbotron-top h1 {margin:0}
+
+.titre-site
+{
+  color:#CA334B; 
+  margin-left:20px;
+  font-weight:bold; 
+  font-size:1.5em;
+  padding:10px;
+}
+
+.titre-page
+{
+  color:white;
+  font-size:8em;
+  text-align:center;
+  vertical-align:middle;
+  margin:0;
+  text-transform: uppercase;
+}
+
+.container-white h2 {padding:20px;}
+
+#presentation-film
+{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.title-docu
+{
+  color:#017520;
+  text-align:left;
+  margin:20px 50px 20px 0px;
+  padding:0px;
+  font-size:2em;
+}
+
+.realisateur
+{
+  color:#000;
+  text-align:left;  
+  margin:0 50px 10px 0px;
+  padding:0px;
+  font-size:1.2em;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+
+.informations
+{
+  color:#AAA;
+  font-size:90%;
+  line-height: 0.2em;
+  margin-bottom:23px;
+}
+
+
+
+.btn-newsletter
+{
+  margin-left:15px;
+  background-color:#C1292E;
+  color:white
+}
+
+/* CONTAINER ET JUMBOTRON */
+
+.jumbotron-top
+{
+  background-color:#161925;
+  padding-top:20px;
+  padding-left:0;
+  padding-right:0;
+  padding-bottom:10px;
+  margin-bottom: 10px;
+}
+
+.jumbotron-footer
+{
+  background-color:#161925;
+  color:white;
+  padding-top:20px;
+  padding-left:0;
+  padding-right:0;
+  padding-bottom:10px;
+  margin-bottom: 0;
+}
+
+
+
+.container-white
+{
+  background: #FFF;
+  padding:0
+}
+
+.container-white {
+  margin-top:20px;
+  background: #fff;
+ padding:10px 10px 10px 10px;
+ overflow: hidden;
+}
+
+.container-news {
+  margin-top:10px;
+  background: #fff;
+ padding:0 10px 0px 10px;
+ overflow: hidden;
+}
+
+.container-news h3 {text-align:center}
+
+/* CAROUSEL */
+
+.carousel-cell {
+  width: 100%;
+  height: 300px;
+  margin-right: 10px;
+  margin-left: 30px;
+  border-radius: 5px;
+  padding:10px;
+  counter-increment: gallery-cell;
+}
+
+.carousel-cell img {
+  max-width:200px;
+  height:auto;
+  padding:10px;
+  float:left
+}
+
+.text-carousel
+{
+  vertical-align:middle;
+  padding:20px;
+}
+
+.carousel-nav .carousel-cell {
+  height: 100px;
+  width: 71px;
+}
+
+
+.carousel-nav .carousel-cell img
+{
+  height:100px;
+  width:71px;
+}
+
+section
+{
+  padding:20px;
+}
+
+.article-left
+{
+max-width: 100%;
+margin-top:15px;
+margin-bottom:5px;
+}
+
+.article-right
+{
+  display:block;
+  max-width:100%;
+  height:150px;
+  margin: 15px auto 5px auto;
+}
+
+
+
+.container-flex
+{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center
+  
+}
+
+/* IMAGES */
+
+.img-festival
+{
+  display:block;
+  width:90%;
+  height:250px;
+  overflow:hidden;
+  margin: 0 auto;
+  margin-bottom:20px;
+  object-fit: cover;
+}
+
+.img-films
+{
+  display:block;
+  width:100%;
+  height:350px;
+  overflow:hidden;
+  margin: 20px auto;
+  margin-bottom:20px;
+  object-fit: cover;
+}
+
+.img-news
+{
+  display:block;
+  width:50%;
+  height:400px;
+  overflow:hidden;
+  margin: 0;
+  object-fit: cover;
+  padding:0;
+}
+
+.img-header
+{
+  display:block;
+  width:100%;
+  height:145px;
+  margin:10px;
+  overflow:hidden;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.img-card-top
+{
+  display:block;
+  width:100%;
+  height:300px;
+  margin:10px;
+  overflow:hidden;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+
+ /* CARDS */
+
+.card-img-top {height:200px;}
+
+.card-bottom {margin-top:8px}
+
+.card, .card-img, .jumbotron, .btn, .form-control, .card-img-top
+{border-radius:0px;}
+
+.card-text, .card-real
+{
+  text-align:left;
+  color:white;
+}
+
+.card a:hover {text-decoration:none;}
+.card-body-home {text-align:center;}
+
+.card-text-stripe 
+{
+  font-size:29px;
+  color:white;
+  text-transform: uppercase;
+}
+
+
+/* CODE COULEUR FILMS */
+
+
+.bg-fiction, .btn-fiction
+{
+background-color:#BF4515;
+color:#FFF;
+}
+
+.bg-docu, .btn-docu 
+{
+  background-color:#017520;
+  color:#FFF;
+}
+
+.bg-anim, .btn-anim
+{
+  background-color: #10608F;
+  color:#FFF;
+}
+
+.btn-anim:hover, .btn-docu:hover, .btn-fiction:hover
+{
+color:#FFF;
+-webkit-transform: scale(1.3, 1.3)
+
+}
+
+.btn-newsletter a {color:white;}
+
+
+.btn-films
+{
+  background-color:#FFF;
+  color:#000;
+  border: 1px solid white;
+  justify-content: center;
+}
+
+.btn-films:hover
+{
+  color:#000;
+  -webkit-transform: scale(1.3, 1.3)
+}
+
+
+
+/* EFFETS / DIVERS */
+
+
+
+.form-control {background:#EEE;}
+.padding-0 {padding:0!important;}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+  padding-top: 30px;
+  margin: 10px 10px 30px 10px;
+	height: 0;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.photo-blur img {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  }
+  .photo-blur img:hover {
+  filter: blur(0);
+  -webkit-filter: blur(0);
+  }
+
+.photo-brightness img {
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  }
+  .photo-brightness img:hover {
+filter: brightness(100%);
+-webkit-filter: brightness(100%);
+}
+
+.align-left {float:left;}
+.align-right {float:right;}
+
+.google-maps
+{
+  display:block;
+  margin : 0 auto;
+}
+
+/* RESPONSIVE */
+
+
+@media (min-width:768px)
+{
+.reseauxsociaux
+{
+  float:right;
+justify-content: middle;}
+}
+
+
+@media (max-width:767px)
+{
+.article-left, .article-right {max-width:100%}
+.img-card-top{height:150px}
+.card-top {margin-bottom:8px}
+h1 {font-size: 23px}
+.img-news {width:100%}
+
+.row.reorder-xs {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  direction: rtl;
+}
+
+.row.reorder-xs > [class*="col-"] {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  direction: ltr;
+}
+
+.img-logo {width:20%;}
+
+.titre-site
+{
+  color:#CA334B; 
+  margin-left:5px;
+  font-size:1.2em;
+  padding:10px;
+}
+.titre-page {font-size:2em;}
+.fab 
+{
+  font-size:1.9em; 
+  margin-top:5px;
+}
+
+.img-news
+{padding-top:10px;}
+
+.card-text p
+{font-size:1.1em;}
+
+.card-title 
+{font-size:1.3em;}
+
+.card-real
+{font-size:1.2em;}
+
+.card
+{margin-bottom:10px}
+
+.informations
+{line-height: 1em;}
+
+.carousel-cell
+{
+  width:100%;
+  height:320px;
+}
+
+.carousel-cell img
+{
+  max-height: 280px;
+}
+
+
+}
+
+
+.navbar-toggler {margin:10px;}
+.text-carousel a
+{text-decoration:none;
+color:#161925}
